@@ -1,0 +1,7 @@
+CREATE TRIGGER trigger_name
+ON Employee
+AFTER INSERT /*INSERT / UPDATE / DELETE*/
+AS
+Begin
+	PRINT 'CANNOT ADD'
+End
